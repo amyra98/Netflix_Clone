@@ -4,18 +4,17 @@ import background from "../assets/login.jpg";
 
 export default function BackgroundImage() {
   return (
-  <div>bg</div>
-    // <Container>
-    //   <img src={background} alt="background" />
-    // </Container>
+    <Container>
+      <img src={background} alt="background" />
+    </Container>
   );
 }
 
-// const Container = styled.div`
-//   height: 100vh;
-//   width: 100vw;
-//   img {
-//     height: 100vh;
-//     width: 100vw;
-//   }
-// `;
+const Container = styled.div`
+  height: 100vh;
+  width: 100vw;
+  img {
+    height: 100vh;
+    width: 100vw;
+  }
+`;
