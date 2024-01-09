@@ -2,4 +2,5 @@ first npm start
 
 to install
 yarn add axios firebase styled-components react-icons react-redux @reduxjs/toolkit react-router-dom
- 
+
+added firebase auth 
