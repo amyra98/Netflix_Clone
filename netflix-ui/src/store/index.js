@@ -112,9 +112,9 @@ import {
       builder.addCase(fetchMovies.fulfilled, (state, action) => {
         state.movies = action.payload;
       });
-      // builder.addCase(fetchDataByGenre.fulfilled, (state, action) => {
-      //   state.movies = action.payload;
-      // });
+      builder.addCase(fetchDataByGenre.fulfilled, (state, action) => {
+        state.movies = action.payload;
+      });
       // builder.addCase(getUsersLikedMovies.fulfilled, (state, action) => {
       //   state.movies = action.payload;
       // });
